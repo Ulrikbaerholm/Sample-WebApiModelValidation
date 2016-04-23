@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47D0124D-4D4E-4E49-8AC3-95707B4BF8E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED9908E8-0878-4B22-9E91-64A9F394CED6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sample-WebApiModelValidation", "src\Sample-WebApiModelValidation\Sample-WebApiModelValidation.xproj", "{0705299F-AAAA-46CE-82C7-90D83BF48349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0705299F-AAAA-46CE-82C7-90D83BF48349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0705299F-AAAA-46CE-82C7-90D83BF48349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0705299F-AAAA-46CE-82C7-90D83BF48349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0705299F-AAAA-46CE-82C7-90D83BF48349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0705299F-AAAA-46CE-82C7-90D83BF48349} = {47D0124D-4D4E-4E49-8AC3-95707B4BF8E2}
+	EndGlobalSection
+EndGlobal
