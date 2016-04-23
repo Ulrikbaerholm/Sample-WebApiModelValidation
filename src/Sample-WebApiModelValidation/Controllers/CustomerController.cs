@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Net;
 using Microsoft.AspNet.Mvc;
 using Sample_WebApiModelValidation.Models;
-using System.Net;
 
 namespace Sample_WebApiModelValidation.Controllers
 {
@@ -13,7 +10,7 @@ namespace Sample_WebApiModelValidation.Controllers
     {
         [HttpGet]
         public string Get() {
-            return "Hello";
+            return "Hello from the API";
         }
 
         // POST api/values
